@@ -11,42 +11,46 @@ Este é o repositório principal contendo docker-compose.yml para desenvolviment
 
   Esse projeto foi desenvolvido durante o segundo semestre de 2020 para apresentação à universidade Unifeb.
 
-  O BetMajor é um aplicativo de notícias e apostas com ênfase no jogo CS:GO que permite ao usuário acompanhar atualizações e realizar apostas em seu time favorito.
+  O BetMajor é uma plataforma de notícias e apostas com ênfase no jogo CS:GO que permite ao usuário acompanhar atualizações e realizar apostas em seu time favorito.
   
-  Ele possui duas páginas, o Dashboard, para listar as transações, as entradas saídas e total e a página de importação.
+  Ele possui um componente chamado conteúdo que, carrega às páginas sem atualizá-la, tal qual, é capaz de trazer a lista de estatísticas, as notícias, a página de administração, etc.
 
-  A aplicação guarda no banco de dados as transações já feitas e as retorna de forma visual e agradável ao usuário final, além de não permitir a realização de uma transação de saída cujo o valor ultrapassa o valor em caixa.
+  A aplicação necessita de autenticação; guarda no banco de dados as publicações de notícias realizadas e as retorna de forma visual e agradável ao usuário final, além de, não permitir a realização de uma publicação caso o usuário não seja um administrador.
 
-## Tecnologias:
+## Tecnologias
   Muitas ferramentas foram utilizadas para o seu desenvolvimento. Entre elas estão:
 
-- Node
-- Vue
-  - Vue Icons
-  - Vue Dropzone
-  - Vue Dom
+- NodeJs
+  - Node Schedule
+- VueJs
+  - Vue MQ
   - Vue Router
-- Postgres
+  - Vue Toasted
+  - Vue Editor
+  - Vue Gravatar
+  - Vue Bootstrap
+  - Vuex
+- PostgresSQL
 - MongoDB
 - Docker
 - KnexJs
-- Date-fns
-- Styled Components
+- Bcrypt
+- Font Awesome
 - Express
 - CORS
 - Axios
-- Multer
-- ESlint
-- Prettier
+- Moment
+- Passport
+- JWT
 
 ## Ambiente de Desenvolvimento
 
-  Para rodar essa aplicação em sua máquina, você precisará do Docker instalado.
+  Para rodar essa aplicação, você precisará ter a ferramenta Docker previamente instalada em sua máquina.
 
 **Clonando o repositório:**
 
 ```
-$ git clone https://github.com/bprofiro/gofinances/.git
+$ git clone --recurse-submodules https://github.com/joaovictorneto/betmajor.git
 ```
 
 To clone this repository (and its submodules) execute:  
