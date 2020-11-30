@@ -53,22 +53,10 @@ Este é o repositório principal contendo docker-compose.yml para desenvolviment
 $ git clone --recurse-submodules https://github.com/joaovictorneto/betmajor.git
 ```
 
-To clone this repository (and its submodules) execute:  
-`git clone --recurse-submodules https://github.com/sleeske/heroku-main.git`  
+**Executando:**
 
-To start execute:  
-`cd heroku-main && docker-compose up --build`
+```
+$ cd betmajor && docker-compose up --build
+```
 
-Additional setup might be required - consult **README.md** files in each submodule for details.
-
-### Instalando:
-
-**Back-End**
-
-- Digite `npm install` na pasta `backend` para instalar todas as dependências;
-- Digite `npm run dev:server` para rodar o servidor;
-
-**Front-End** 
-
-- Digite `npm install` na pasta `frontend` para instalar todas as dependências;
-- Digite `npm start` para rodar o projeto;
+É necessário ver detalhes de configuração adicional nos submódulos. Consulte os arquivos **README.md** de cada repositório.
