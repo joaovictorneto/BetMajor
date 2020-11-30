@@ -1,6 +1,6 @@
 Este é o repositório principal contendo docker-compose.yml para desenvolvimento local e os submódulos backend/frontend da aplicação.
 <p align="center">
-<!--   <img src="https://github.com/bprofiro/gofinances/blob/master/frontend/src/assets/logo.svg" /> -->
+<!--   <img src="https://github.com/joaovictorneto/betmajor-frontend/blob/main/src/assets/logo_betmajor_preta.png" /> -->
 </p>
 
 <p align="center">
