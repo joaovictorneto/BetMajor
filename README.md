@@ -26,6 +26,8 @@ Este é o repositório principal contendo docker-compose.yml para desenvolviment
   - Vue Gravatar
   - Vue Bootstrap
   - Vuex
+- Git
+  - GitHub
 - PostgresSQL
 - MongoDB
 - Docker
