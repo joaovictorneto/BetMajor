@@ -7,7 +7,7 @@ Este é o repositório principal contendo docker-compose.yml para desenvolviment
 
   Esse projeto foi desenvolvido durante o segundo semestre de 2020 para apresentação à universidade Unifeb.
 
-  O BetMajor é uma plataforma de notícias e apostas com ênfase no jogo CS:GO que permite ao usuário acompanhar atualizações e realizar apostas em seu time favorito.
+  O BetMajor é uma plataforma de notícias e apostas com ênfase no jogo CS:GO que permite ao usuário realizar apostas e acompanhar atualizações de noticias de seu time favorito.
   
   Ele possui um componente chamado conteúdo que, carrega às páginas sem atualizá-la, tal qual, é capaz de trazer a lista de estatísticas, as notícias, a página de administração, etc.
 
@@ -38,6 +38,7 @@ Este é o repositório principal contendo docker-compose.yml para desenvolviment
 - Moment
 - Passport
 - JWT
+- Heroku
 
 ## Ambiente de Desenvolvimento
 
